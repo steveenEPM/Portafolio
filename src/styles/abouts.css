@@ -1,0 +1,30 @@
+.abouts {
+    align-items: flex-start;
+}
+
+.abouts .imagen {
+    position: absolute;
+    top:1%;
+    left: 53%;
+    z-index:2;
+}
+
+
+.abouts p {
+    width: 53%;
+}
+@media screen and (max-width: 480px) {
+    .abouts {
+        flex-direction: column;
+    }
+
+    .abouts .imagen {
+        display: none;
+    }
+
+    .abouts p {
+        width: 100%;
+    }
+
+
+}

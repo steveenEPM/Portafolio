@@ -1,0 +1,53 @@
+.projets {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.projets .lista {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 40px;
+}
+
+.projets .itemsPro {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    border-radius: 11px;
+    padding: 10%;
+    background-color: white;
+    box-shadow: gray 3px 4px 7px;
+    border: 1px solid rgba(0, 0, 0, .2);
+    cursor: pointer;
+    background-color: white;
+    transition-duration: 1s;
+    transition-timing-function: ease-out;
+    min-width: 100px;
+
+}
+
+.projets>div:not(.imagen) {
+    height: inherit;
+    padding: 5% 0%;
+}
+
+.projets .itemsPro:hover {
+    transform: translateY(-13px);
+}
+
+.projets .itemsPro :active {
+    opacity: .5;
+}
+
+.projets .imagen {
+    position: absolute;
+    top: -54%;
+    left: 53%;
+
+    z-index:2;
+}

@@ -1,0 +1,49 @@
+
+
+header nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    position: fixed;
+    width: -webkit-fill-available;
+    background-color: aqua;
+    z-index: 2;
+    overflow: hidden;
+}
+
+header button {
+    padding: 1% .5%;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+    font-size: 17px;
+    background-color: inherit;
+    border: none;
+    transition-duration: 1s;
+
+}
+
+
+header button:hover {
+    transform: translateY(-3px);
+    text-shadow: 0px 0px 3px white;
+}
+
+header button:active {
+    opacity: .5;
+}
+
+
+@media screen and (max-width: 480px) {
+
+    header {
+        display: none;
+    }
+
+    header nav {
+        overflow-x: scroll;
+        border: 1px solid;
+    }
+}
