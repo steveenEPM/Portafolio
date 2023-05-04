@@ -10,7 +10,7 @@ const Container = styled.div`
     overflow: hidden;
     font-weight: bold;
     display: flex;
-    gap: 12px;
+    gap: 22px;
     flex-direction: column;
    
    
@@ -23,11 +23,22 @@ const Container = styled.div`
     button {       
         display:flex;
         flex-direction: row;
-        gap:12px;
+        gap:7px;
         background-color: inherit;
         border:none;
         margin-bottom: 12px;
-        cursor:pointer;
+        align-items: center;
+        justify-content: center;
+
+        i {
+            font-size: 20px;
+            transform: translateY(-3px);
+            
+        }
+        span {
+            font-size: 17px;
+            
+        }
     }
 
 `
