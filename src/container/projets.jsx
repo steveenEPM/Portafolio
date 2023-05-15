@@ -2,7 +2,12 @@ import Imagenes from '../components/lottiefiles'
 import ImgPro1 from '../asset/project1.png'
 import PetShop from '../asset/petShop.png'
 import Waves from '../asset/blob (5).svg'
+import ApkPokemon from '../asset/project2.jpeg'
+import IconPoke from '../asset/pokemon.png'
+
 import SweetAlert2 from '../components/SweetAlet'
+import SweetAlert from '../components/SweetAlet2'
+
 import Items from '../components/itemsProje'
 import '../styles/projets.css'
 
@@ -16,6 +21,9 @@ export default function Projets() {
                 <div className='lista'>
                     <Items src={PetShop} alt={"petshop"} label={"Pet Shop"}
                         eClick={() => SweetAlert2(ImgPro1, "https://pet-shop-sandy.vercel.app/", "https://github.com/steveenEPM/petShop.git")}
+                    />
+                    <Items src={IconPoke} alt={"pokemon"} label={"Pokemon"}
+                        eClick={() => SweetAlert(ApkPokemon, "https://github.com/steveenEPM/pokemonApk.git")}
                     />
                 </div>
             </div>

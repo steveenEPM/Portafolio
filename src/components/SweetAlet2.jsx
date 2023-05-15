@@ -4,7 +4,7 @@ import Swal from 'sweetalert2'
 import withReactContent from 'sweetalert2-react-content'
 
 
-const SweetAlert2 = (url, link, github) => {
+const SweetAlert = (url, github,name) => {
 
     const MySwal = withReactContent(Swal)
 
@@ -14,15 +14,9 @@ const SweetAlert2 = (url, link, github) => {
 
         return (
             <Element>
-                <img src={url} alt={url} width={450} height={250} />
+                <img src={url} alt={url} width={150} height={250} />
 
                 <div>
-                    <button
-                        onClick={() => window.location.href=link }
-                    >
-                        <i className="fa-sharp fa-solid fa-globe" style={{ color: "#a1a1a1" }}></i>
-                        Visitar
-                    </button>
                     <button
                         onClick={()=> window.location.href=github }
                     >
@@ -36,7 +30,7 @@ const SweetAlert2 = (url, link, github) => {
 
 
     MySwal.fire({
-        title: <h3 style={{fontSize:18,fontWeight:"bold",fontStyle:"normal"}}>Aplicacion Web</h3>,
+        title: <h3 style={{fontSize:18,fontWeight:"bold",fontStyle:"normal"}}>Aplicacion Mobile</h3>,
         html: <HtmlJSX />,
         confirmButtonText: 'Cerrar',
         confirmButtonColor:'rgba(255,0,0,1)'
@@ -75,4 +69,4 @@ const Element = styled.div`
 
 `
 
-export default SweetAlert2
+export default SweetAlert
