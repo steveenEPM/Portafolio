@@ -4,6 +4,8 @@ import PetShop from '../asset/petShop.png'
 import Waves from '../asset/blob (5).svg'
 import ApkPokemon from '../asset/project2.jpeg'
 import IconPoke from '../asset/pokemon.png'
+import IconClima from '../asset/dia.png'
+import ApkClima from '../asset/climaA.jpeg'
 
 import SweetAlert2 from '../components/SweetAlet'
 import SweetAlert from '../components/SweetAlet2'
@@ -25,6 +27,9 @@ export default function Projets() {
                     <Items src={IconPoke} alt={"pokemon"} label={"Pokemon"}
                         eClick={() => SweetAlert(ApkPokemon, "https://github.com/steveenEPM/pokemonApk.git")}
                     />
+                     <Items src={IconClima} alt={"clima"} label={"Clima"}
+                        eClick={() => SweetAlert(ApkClima, "https://github.com/steveenEPM/apkClima.git")}
+                    />
                 </div>
             </div>
             <div className='imagen'>
@@ -38,3 +43,5 @@ export default function Projets() {
     )
 
 }
+
+//https://github.com/steveenEPM/apkClima.git
