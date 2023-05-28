@@ -12,9 +12,10 @@ export default function Abouts() {
                     Acerca de mi
                 </h2>
                 <p>
-                    Soy estudiante de ultimo semestre de Ingeniería de Sistemas de la Universidad
-                    Técnica Manabi. tengo como expereiencia la creacion de forma independiente la creacion de 
-                    aplicaciones para diferentes .
+                    Estudiante de ultimo semestre de Ingeniería de Sistemas de la Universidad Técnica Manabi. 
+                    Tengo como expereiencia la creacion de  aplicaciones para diferentes plataformas. 
+                    Con conocimiento en el uso de buenas practicas en programacion. Tambien cuento como conocimiento
+                    basico de diseño de interaccion de usurios, y arquitectura de sofware
                 </p>
                 <p>
                     Soy una persona que cuenta con la capacidad analizar, proponer y dar soluciones en el contexto del

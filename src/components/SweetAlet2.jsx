@@ -14,7 +14,7 @@ const SweetAlert = (url, github,name) => {
 
         return (
             <Element>
-                <img src={url} alt={url} width={150} height={250} />
+                <img src={url} alt={url} width={130} height={250} />
 
                 <div>
                     <button
