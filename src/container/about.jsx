@@ -12,9 +12,9 @@ export default function Abouts() {
                     Acerca de mi
                 </h2>
                 <p>
-                    Estudiante de ultimo semestre de Ingeniería de Sistemas de la Universidad Técnica Manabi. 
-                    Tengo como expereiencia la creacion de  aplicaciones para diferentes plataformas. 
-                    Con conocimiento en el uso de buenas practicas en programacion. Tambien cuento como conocimiento
+              	    Ingeniero de Sistemas graduado de la Universidad Técnica Manabi. 
+              	    Con conocimiento en  creacion de  aplicaciones para diferentes plataformas. 
+                    Con usos de buenas practicas en programacion. Tambien con conocimiento
                     basico de diseño de interaccion de usurios, y arquitectura de sofware
                 </p>
                 <p>
