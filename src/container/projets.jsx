@@ -6,9 +6,10 @@ import ApkPokemon from '../asset/project2.jpeg'
 import IconPoke from '../asset/pokemon.png'
 import IconClima from '../asset/dia.png'
 import ApkClima from '../asset/climaA.jpeg'
-
+import Paella from '../asset/paella.png'
 import SweetAlert2 from '../components/SweetAlet'
 import SweetAlert from '../components/SweetAlet2'
+import ApkRestaurant from '../asset/apkResturant.png'
 
 import Items from '../components/itemsProje'
 import '../styles/projets.css'
@@ -27,8 +28,11 @@ export default function Projets() {
                     <Items src={IconPoke} alt={"pokemon"} label={"Pokemon"}
                         eClick={() => SweetAlert(ApkPokemon, "https://github.com/steveenEPM/pokemonApk.git")}
                     />
-                     <Items src={IconClima} alt={"clima"} label={"Clima"}
+                    <Items src={IconClima} alt={"clima"} label={"Clima"}
                         eClick={() => SweetAlert(ApkClima, "https://github.com/steveenEPM/apkClima.git")}
+                    />
+                    <Items src={Paella} alt={"Restaurant s"} label={"Restaurant S"}
+                        eClick={() => SweetAlert2(ApkRestaurant, "https://restaurant-taupe.vercel.app/", "https://github.com/steveenEPM/Restaurant.git")}
                     />
                 </div>
             </div>
