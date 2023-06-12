@@ -29,7 +29,7 @@ export default function Projets() {
                         eClick={() => SweetAlert(ApkPokemon, "https://github.com/steveenEPM/pokemonApk.git")}
                     />
                     <Items src={IconClima} alt={"clima"} label={"Clima"}
-                        eClick={() => SweetAlert(ApkClima, "https://github.com/steveenEPM/apkClima.git")}
+                        eClick={() => SweetAlert(ApkClima, "https://github.com/steveenEPM/apkClima.git","https://expo.dev/accounts/drago_scuro/projects/climaapk/builds/594a899f-61fa-4674-b5b1-da84db95410a")}
                     />
                     <Items src={Paella} alt={"Restaurant s"} label={"Restaurant S"}
                         eClick={() => SweetAlert2(ApkRestaurant, "https://restaurant-taupe.vercel.app/", "https://github.com/steveenEPM/Restaurant.git")}
